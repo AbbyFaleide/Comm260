@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <title>Rhombus Menu</title>
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Muli|Ovo" rel="stylesheet">
+
+        <style>
+            *   {
+                box-sizing: border-box;
+            }
+        body {
+            font-family: 'Muli', sans-serif;       
+        }
+        h1,
+        .item heading   {
+            font-family: 'Ovo', serif;
+        }
+        h1 {
+            font-size: 250%;
+            text-align: center;
+        }
+        .food-type  {
+            width: 32%
+            float: left;
+            margin-left: 1%;
+        }
+        .food-type h2{
+            border-bottom: 1px solid crimson;
+        }
+        .item{
+            padding: 10px;
+            margin-top: 5px;
+            margin-left: 20px;
+            background: #efefefef;
+            color: #121212;
+        }
+        .item heading {
+            font-weight: bold;
+            font-size: 150%
+        }
+        .ietm p {
+            line-height: 1.2em;
+        }
+
+        </style>
+    </head>
+<body>
+
+<!--
+  Turn the image menu found here: https://rhombuspizza.com/the-food/fargo/ into an html menu
+-->
+
+<h1>Rhombus Guys</h1>
+
+<section class="food-type">
+    <h2>Appetizers</h2>
+
+    <section class="item">
+        <heading>Rhombus Sticks</heading>
+        <i><div class="price">$6.99</div></i>
+        <p>These bread sticks are lightly brushed with garlic butter and seasoned with a dash of romano.</p>
+    </section>
+
+    <section class="item">
+        <heading>Boneless Wings</heading>
+        <i><div class= "price">$5.99 - $12.49</div></i>
+        <p>6 piece $5.99 // 12 piece $9.49 // 18 piece $12.49</p>
+        <p>Sauces: Hot, Mild, BBQ, Teriyaki, Jerk, Spicy BBQ</p>
+    </section>
+
+    <section class="item">
+        <heading>Nachos Grande</heading>
+        <i><div class="price">8.99</div></i>
+        <p>Tortilla chips piled high with cheddar and mozzarella served with sour cream and salsa.</p>
+        <p>Additional Toppings // $1.50 each</p>
+        <p>With BBQ Chicken or Pulled Pork // $13.50</p>
+    </section>
+</section>
+
+<section class="food-type">
+    <h2>Fresh Salads</h2>
+
+    <section class="item">
+        <heading>Garden Fresh Salad</heading>
+        <i><div class="price">$7.99</div></i>
+        <p>Romaine Lettuce, Tomato, Onion, Mushroom, Black Olives, Parmesan & Croutons</p>
+    </section>
+
+    <section class="item">
+        <heading>Grilled Chicken Salad</heading>
+        <i><div class="price">$9.99</div></i>
+        <p>Romaine Lettuce, Chicken, Tomato, Onion, Cheddar Cheese & Croutons</p>
+    </section>
+</section>
+
+<section class="food-type">
+    <h2>Rhombus Pizza Originals</h2>
+
+    <section class="item">
+        <heading>Deluxe</heading>
+        <i><div class="price">$10.99 - $26.99</div></i>
+        <p>8" $10.99 // 9" Gluten-Free $11.99 // 12" 18.99 // 16" $21.99 // 18" $26.99</p>
+        <p>Marinara, Pepperoni, Canadian Bacon, Sausage, Beef, Bacon, Black & Green Olives, Mushrooms, Green Peppers, Onion, Mozzarella </p>
+    </section>
+
+    <section class="item">
+        <heading>T-Rex</heading>
+        <i><div class="price">$9.99 - $25.99</div></i>
+        <p>8" $9.99 // 9" Gluten-Free $11.99 // 12" 17.99 // 16" $21.99 // 18" $25.99</p>
+        <p>Marinara, Pepperoni, Sausage, Canadian Bacon, Beef, Bacon, & Mozzarella</p>
+    </section>
+
+</body>
+</html>
