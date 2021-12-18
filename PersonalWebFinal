@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="personalweb" content="width=device-width, initial-scale=1">
+            <title>Willow & Oak Vinatage Boutique</title>
+         <style>
+             
+            body {
+                color: white;
+                font-family: Avenir;
+                font-style: bold;
+                background-color: rgb(154, 165, 152); 
+            }
+            * {
+                box-sizing: border-box;
+                padding: 0;
+            }
+        
+            #main-nav {
+	            display: inline;
+	            width: 100%;
+	            margin-top: 4px;
+	            font-size: 1.2rem;
+	            padding: .5rem 0rem .5rem 2rem;
+	            line-height: 2rem;
+                text-align: center;
+            }
+            #search {
+                text-decoration: none;
+                color: black;
+            }
+            a {
+                display:block;
+                padding:8px;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                margin: 0 15px;
+            }
+            li a:hover {
+                background-color: #111;
+            }
+            li {
+                border-right: 1px solid #bbb;
+                float:left;
+
+            }
+            footer {
+                position: fixed;
+                bottom: 0;
+                text-align: center;
+            }
+            * {
+                padding: 0;
+            }
+            header {
+                position: relative;
+                text-align: center;
+                padding: 20px;
+                font-family: Didot;
+                justify-content: center;
+            }
+            h2 {
+                line-height: 1.6;
+                text-align: center;
+                font-family: Avenir;
+            }
+            h3 {
+                line-height: 1.5;
+                text-align: center;
+                font-family: Didot;
+            }
+            
+            p {
+                text-align: center;
+                float: right;
+                font-family: Avenir;
+                
+            }
+            .column {
+                float: left;
+            }
+            .column.side {
+                width: 25%
+            }
+            .column.middle {
+               width: 50%
+            }
+            div {
+                padding: 25px;
+                
+            }
+            img {
+                justify-content: center;
+            }
+            h4 
+            {
+                text-align: center;
+            }
+        </style>
+    </head>
+    
+    <body>
+
+        <header>
+            <img src="https://www.canva.com/design/DAEksmhMBqo/NKY54XhmgqM_2JxefdaEfw/watch?utm_content=DAEksmhMBqo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" 
+            alt="Logo" 
+            style="float:left;width:100px">
+            <nav id="search">
+            <p>
+            <a href="Search">Search</a>
+            <a href="Login">Login</a>
+            <a href="Cart">Cart</a>
+            </p>
+            </nav>
+        <h1>Willow & Oak<br>
+        Vinatage Boutique</h1>
+        <ol style="color: black">
+        </header>
+        <nav id="main-nav">
+        <ul>
+            <li><a href="#New">What's New</a></li>
+            <li><a href="#Clothing">Clothing</a></li>
+            <li><a href="#Shoes">Shoes</a></li>
+            <li><a href="#Accessories">Accessories</a></li>
+            <li><a href="#Home Decor">Home Decor</a></li>
+            <li><a href="#Sale">Sale</a></li>
+        </ul>
+        </nav>
+        
+        <section>
+            <article>
+                <h3 class="post-heading">Shop new items dropped weekly.<br>
+                    Check them out now before they're gone!</h3>
+                <ol style="color: black">
+                    <div class="row">
+                    <div class="column side">
+                <h2>Vintage & Retro<br> Modern Apparel<br> Accessories<br> Home Decor<br> More!<h2></ol></article></div>
+            </article>
+            </section>
+        <div>
+            <img src="SsImages/Slideshow#1.png" width=250px height=250px>
+            <img src="SsImages/Slideshow#2.png" width=250px height=250px>
+            <img src="SsImages/Slideshow#3.png" width=250px height=250px> <br>
+            <h4>
+                Our end of year sale is open now! Don't miss out while supplies last.
+            </h4>    
+            <img src="SsImages/Slideshow#4.png" width=1200px height=400px>
+        </div>
+    </section>
+    
+            <footer>
+                <nav>
+                    <ul>
+                        <li><a href="https://instagram.com">Instagram</a></li>
+                        <li><a href="https://gmail.com">Email</a></li>
+                        <li><a href="https://linkedin.com">About Us</a></li>
+                        <li><a href="https://sustainability.com">Mission</a></li>
+                        <li><a>Est. 2019 </a></li>
+                    </ul>
+                </nav>
+            </footer>
+    </body>
+</html>
